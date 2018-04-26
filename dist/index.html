@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lorem ipsum website</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <header>
+      <nav class="top-menu">
+          <a href="#login">Login</a>
+          <a href="#contact">Contact</a>
+      </nav>
+
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <h1>This is site logo</h1>
+
+      <nav class="menu">
+          <a href="#new">New</a>
+          <a href="#women">Women</a>
+          <a href="#kids">Kids</a>
+          <a href="#lookbook">Lookbook</a>
+          <a href="#boutiques">Boutiques</a>
+          <a href="#love-life">Love Life</a>
+          <a href="#promotions">Promotions</a>
+      </nav>
+    </header>
+
+    <section class="site-banner">
+      <div class="vertical-aligned">
+        <h1>Lorem Ipsum</h1>
+        <h5>summer 17-18</h5>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+    </section>
+
+    <main>
+      <section class="products-list">
+        <h1>Products</h1>
+        <figure class="product">
+          <img src="img/trensh_coat.jpg" alt="Trensh Coat image">
+          <figcaption>
+            <h4>Trensh Coat</h4>
+            <span class="product-price">95.99 &euro;</span> <span class="product-discount">85.99 &euro;</span>
+          </figcaption>
+        </figure>
+
+        <figure class="product">
+          <img src="img/duffle_coat_red.jpg" alt="Red Duffle Coat image">
+          <figcaption>
+            <h4>Duffle Coat</h4>
+            <span class="product-price">55.99 &euro;</span> <span class="product-discount">45.99 &euro;</span>
+          </figcaption>
+        </figure>
+
+        <figure class="product">
+          <img src="img/duffle_coat_gray.jpg" alt="Gray Duffle Coat image">
+          <figcaption>
+            <h4>Duffle Coat</h4>
+            <span class="product-price">55.99 &euro;</span> <span class="product-discount">45.99 &euro;</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <article class="about-us">
+        <h1>This is a title</h1>
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum."
+        </p>
+        <ul>
+          <li>At vero eos et acusumaces iusdio.</li>
+          <li>Pellentesque interdum turpis sed eross.</li>
+          <li>Donec pellentesque tortor ac imperdiet.</li>
+          <li>Curabitur tincidunt tellus eu neque.</li>
+          <li>Maecenas in nisi vitae nulla feugiat.</li>
+        </ul>
+        <p>
+          Morbi et tellus eget mi iaculis aliquet. Nunc tellus nibh, tincidunt sit
+          amet porta in, aliquet non felis. Duis mattis ex nec metus eleifend, ut
+          pharetra lorem dignissim. Vivamus urna velit, mattis eget magna sed,
+          semper interdum erat. Vivamus sit amet elementum nunc, sit amet lobortis
+          justo. Quisque vel pharetra quam. Vestibulum condimentum tempor tortor.
+          Vestibulum diam orci, dapibus vel enim at, euismod interdum leo. Nullam a
+          nulla dapibus, pretium felis ut, varius lorem. Suspendisse interdum nulla
+          vel faucibus cursus. Ut pellentesque gravida nulla eget mollis.
+        </p>
+      </article>
+
+      <section class="products-slider">
+          <h1>More Products</h1>
+          <div id="prev-img" class="arrow prev"></div>
+          <section class="pictures-list">
+
+          </section>
+          <div id="next-img" class="arrow next"></div>
+      </section>
+
+      <section class="login">
+        <section class="login-details">
+          <h3>Login</h3>
+
+          <form class="login-form">
+            <ul>
+              <li>
+                <label for="first-name">First Name<span class="required">*</span></label>
+                <input type="text" name="first-name" id="first-name" placeholder="Enter your first name" class="form-control" />
+              </li>
+              <li>
+                <label for="last-name">Last Name<span class="required">*</span></label>
+                <input type="text" name="last-name" id="last-name" placeholder="Enter your last name" class="form-control" />
+              </li>
+              <li>
+                <label for="birthday">Date of Birth<span class="required">*</span></label>
+                <input type="date" name="birthday" id="birthday" class="form-control" />
+              </li>
+              <li>
+                <label for="email">Email<span class="required">*</span></label>
+                <input type="email" name="email" id="email" placeholder="Enter your E-Mail address" class="form-control" />
+              </li>
+              <li>
+                <label for="password">Password<span class="required">*</span></label>
+                <input type="password" name="password" id="password" placeholder="Enter your password" class="form-control" />
+              </li>
+            </ul>
+            <p class="form-messages">* Required field</p>
+
+            <ul class="customer-status">
+              <li>
+                <input type="radio" name="customerStatus" id="returningCustomer" /><label for="returningCustomer">I am a returning customer</label>
+              </li>
+              <li>
+              <input type="radio" name="customerStatus" id="newCustomer" /><label for="newCustomer">I am a new customer <br /> Creating an account is not mandatory</label>
+              </li>
+            </ul>
+
+            <button type="submit">Continue with purchase</button>
+          </form>
+        </section>
+
+        <article class="login-info">
+          <h3>Benefits of creating an account</h3>
+
+          <p>
+            Duis faucibus congue est, vel fermentum eros eleifend sed. Praesent vitae
+            tempor mauris. Proin suscipit vitae arcu ac scelerisque. Ut malesuada eu
+            quam et imperdiet. Cras id efficitur metus, in porttitor nisl.
+          </p>
+
+          <p>
+            Sed id elementum lectus. Suspendisse eleifend nisl ut enim rhoncus, eget
+            fringilla velit condimentum.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <section class="newsletter">
+        <h4>Receive our newsletter</h4>
+
+          <input type="text" name="email" placeholder="Enter your Email" />
+          <button>Go</button>
+      </section>
+
+      <ul class="footer-navigation">
+        <li>Registered Trademarks inc. all right reserved &nbsp; -</li>
+        <li>Conditions &nbsp; -</li>
+        <li>Privacy</li>
+      </ul>
+    </footer>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
